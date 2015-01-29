@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Steffi and Michael</title>
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/form.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/forms.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/tms-0.4.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				!function(){
+			var map=[]
+			 ,names=[]
+			 ,win=$(window)
+			 ,header=$('header')
+			 ,currClass
+			$('.content').each(function(n){
+			 map[n]=this.offsetTop
+			 names[n]=$(this).attr('id')
+			})
+			win
+			 .on('scroll',function(){
+				var i=0
+				while(map[i++]<=win.scrollTop());
+				if(currClass!==names[i-2])
+				currClass=names[i-2]
+				header.removeAttr("class").addClass(names[i-2])
+			 })
+			}(); });
+					function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+				}
+				$(document).ready(function(){
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+			</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header class="page1">
+			<div class="container_12">
+				<div class="grid_12">
+					<h1><a href="#" onClick="goToByScroll('page1'); return false;">
+              <img src="images/clear.png" alt="Gerald Harris attorney at law"></a>
+          </h1>
+					<div class="menu_block">
+						<nav class="">
+							<ul class="sf-menu">
+								<li class="current men"><a onClick="goToByScroll('page1'); return false;" href="#">Top</a> <strong class="hover"></strong></li>
+								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">Transport</a><strong class="hover"></strong></li>
+								<li class=" men2"><a onClick="goToByScroll('page3'); return false;" href="#">Schedule</a> <strong class="hover"></strong></li>
+								<li class=" men3"><a onClick="goToByScroll('page4'); return false;" href="#">Accommodation</a> <strong class="hover"></strong></li>
+								<li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="#">Dress code</a> <strong class="hover"></strong></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+<!--=======content================================-->
+		<div id="page1" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+          <h2>Steffi and Michael</h2>
+          <h3>π day wedding</h3>
+          <h3>14 March 2015</h3>
+          <!-- <h3>34 Sea View Rd, Waiheke Island</h3> -->
+				</div>
+			</div>
+		</div>
+		<div id="page2" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+            <h3>Transport</h3>
+						<div class="text1">
+              There are two ferry options from Auckland to Waiheke:<br/>
+              1. <a href="http://www.fullers.co.nz/tickets-fares/timetables/waiheke-island.php">Fullers passenger ferry</a> offers a discounted return ticket for $32 per person if you show a printout of the invitation email when you buy the ticket. They leave from the ferry terminal at Britomart and their last ferry back to Auckland leaves at 12.30am.
+              <br/><br/>
+
+2. Sealink car and passenger ferry () offers a discounted return ticket
+for $... for one car including two passengers if you quote that you are
+guests of our wedding when you book. They leave from Halfmoon Bay or
+Wynyard Quarter in Auckland and go to Kennedy Point on Waiheke. Their
+last ferry back to Auckland leaves already at 7pm, so this is only an
+option if you choose to stay overnight.
+
+              <br/><br/>
+For transport on the island, you can take a taxi to the venue and back
+to the ferry. It's a busy day with weddings on Waiheke and the taxis
+might book out, so please reserve the taxi as early as possible. These
+are some taxi companies on the island: <br/>
+<a href="http://www.islandtaxis.co.nz">Island Taxis</a> <br/>
+<a href="http://waihekexpresstaxis.co.nz">Waiheke Express Taxis</a> <br/>
+<a href="http://waihekeindependenttaxis.co.nz">Waiheke Independent Taxis</a> <br/>
+
+              <br/><br/>
+We do not recommend taking the local bus, as the times are unreliable
+and the venue is a 25 minute climb up a steep hill from the closest bus
+stop in Ostend.
+
+              <br/><br/>
+Ceremony and reception will be in the backyard of a private home at 34
+Seaview Road, about half-way between Ostend and Onetangi. There is some
+parking at the beginning of the driveway and more parking along Seaview
+Road. Please do not drive to the end of the driveway as you might not be
+able to turn around.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page3" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Schedule</h3>
+						<div class="text1">
+              The ceremony starts at 4pm. Please plan to arrive at the venue by 3.30pm at the latest, which means taking the ferry from Auckland at 2pm or earlier. The ceremony will be followed by ice cream, drinks, dinner and dancing until around midnight.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page4" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+          <h3>Accommodation</h3>
+						<div class="text1">
+              For accommodation options on Waiheke see for example:
+              <ul>
+                <li><a href="http://www.bookabach.co.nz/baches-and-holiday-homes/search/locale/waiheke-island">Bookabach</a></li>
+                <li><a href="http://gotowaiheke.co.nz/listings/waiheke_accommodation/">Goto Waiheke</a></li>
+                <li><a href="http://kinabackpackers.co.nz/">Kina Backpackers</a></li>
+              </ul>
+
+There is also an option for camping at the venue. Please let us know if
+you are interested in this in your RSVP.
+          </div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div id="page5" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+          <h3>RSVP</h3>
+          <iframe src="https://docs.google.com/forms/d/1Wo6Osx09WZlPA1a2S8VS-hfgYeNd4EYWBeG2IlW6h4g/viewform" width="600" height="800">
+            Please <a href="https://docs.google.com/forms/d/1Wo6Osx09WZlPA1a2S8VS-hfgYeNd4EYWBeG2IlW6h4g/viewform">RSVP here</a>.
+          </iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
