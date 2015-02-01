@@ -263,11 +263,11 @@ border-color: #334960 transparent transparent transparent;
 }
 
 #page3:after {
-	border-color: #f17c72 transparent transparent transparent;
+	border-color: #4b275d transparent transparent transparent;
 }
 
 #page7:after {
-	border-color: #f17c72 transparent transparent transparent;
+	border-color: #1F7A5C transparent transparent transparent;
 }
 
 #page4:after {
@@ -283,7 +283,7 @@ border-color: #334960 transparent transparent transparent;
 }
 
 #page9:after {
-	border-color: #7f4c76 transparent transparent transparent;
+	border-color: #7A1F3D transparent transparent transparent;
 }
 
 #page6:after {
@@ -339,32 +339,32 @@ header.page9 .men8 .hover{
 }
 
 #page2 {
-	background-color: #f17c72;
+	background-color: #4b275d;
 	padding-top: 230px;
 	padding-bottom: 500px;
 	padding-bottom: 190px;
 }
 
 header.page2 {
-	background-color: #f17c72;
+	background-color: #4b275d;
 }
 
 header.page2 .hover {
-	background-color: #e6655e;
+	background-color: #a355c9;
 }
 
 #page6 {
-	background-color: #f17c72;
+	background-color: #1F7A5C;
 	padding-top: 230px;
 	padding-bottom: 190px;
 }
 
 header.page6 {
-	background-color: #f17c72;
+	background-color: #1F7A5C;
 }
 
 header.page6 .hover {
-	background-color: #e6655e;
+	background-color: #279a74;
 }
 
 
@@ -409,12 +409,12 @@ header.page4 .hover {
 }
 
 #page8 {
-	background-color: #7f4c76;
+	background-color: #7A1F3D;
 	padding-bottom: 190px;
 }
 
 header.page8{
-	background-color: #7f4c76;
+	background-color: #7A1F3D;
 }
 
 header.page8 .hover {
@@ -488,7 +488,7 @@ header.page9 .hover {
 }
 
 .box {
-	background-color: #e6655e;
+	background-color: #279a74;
 	border: 3px solid #f4948b;
 	padding: 23px 0 24px;
 	border-top-width: 4px;
@@ -615,7 +615,7 @@ footer {
 }
 
 footer a:hover {
-	color: #f17c72;
+	color: #1F7A5C;
 }
 
 .copy {
