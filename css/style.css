@@ -353,6 +353,20 @@ header.page2 .hover {
 	background-color: #a355c9;
 }
 
+#page3 {
+	background-color: #32ac97;
+	padding-top: 230px;
+}
+
+header.page3{
+	background-color: #32ac97;
+	/* background-color: #32ac97; */
+}
+
+header.page3 .hover {
+	background-color: #46dcc7;
+}
+
 #page6 {
 	background-color: #1F7A5C;
 	padding-top: 230px;
@@ -365,21 +379,6 @@ header.page6 {
 
 header.page6 .hover {
 	background-color: #279a74;
-}
-
-
-
-#page3 {
-	background-color: #32ac97;
-	padding-top: 230px;
-}
-
-header.page3{
-	background-color: #32ac97;
-}
-
-header.page3 .hover {
-	background-color: #46dcc7;
 }
 
 #page7 {
